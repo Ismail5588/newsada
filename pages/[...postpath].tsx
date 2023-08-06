@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					https://newsada.online//` + encodeURI(path as string)
+					`https://newsada.online//` + encodeURI(path as string)
 				}`,
 			},
 		};
